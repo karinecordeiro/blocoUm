@@ -1,23 +1,27 @@
+/*Obtenha um número digitado pelo usuário e repita a operação de multiplicar ele por três  (imprimindo o novo valor)
+até que ele seja maior do que 100. Ex.: se o usuário digita 5,  deveremos observar na tela a seguinte sequência: 
+5 15 45 135.*/
+
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro numeroUsuario , novoResultado 
 		escreva("SISTEMA QUATRO\n")
+		
+		inteiro numeroUsuario , novoResultado 
+		
 		escreva("\nDigite um número: ")
 		leia(numeroUsuario)
 		novoResultado=numeroUsuario*3
 		escreva("\nO número: " ,numeroUsuario," X " ,3, " é = " ,novoResultado,"\n")
 		
 		enquanto(novoResultado<=100)
-		{
+			{
 			escreva("\nO número ",novoResultado, " X " ,3, " é = ",novoResultado*=3, "\n")
-		}
-
-		
+			}
 	}
-	}
+}
 	
 	
 		
@@ -26,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 395; 
+ * @POSICAO-CURSOR = 588; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

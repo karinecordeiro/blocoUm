@@ -4,6 +4,7 @@ d= raiz(x2-x1)² + (y2-y1)² */
 programa
 {
 	inclua biblioteca Matematica --> mat
+
 	
 	funcao inicio()
 	{
@@ -18,10 +19,7 @@ programa
 		escreva("O valor de y1= ")
 		leia(y1)
 
-		p1 = mat.potencia (x2-x1, 2)
-		p2 = mat.potencia (y2-y1, 2)
-
-		d= mat.raiz(p1+p2, 2) 
+		d= mat.raiz(mat.potencia (x2-x1, 2)+mat.potencia (y2-y1, 2),2)
 
 		escreva("\nA distância é igual a: " ,d, "\n")
 	}
@@ -31,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 346; 
+ * @POSICAO-CURSOR = 214; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

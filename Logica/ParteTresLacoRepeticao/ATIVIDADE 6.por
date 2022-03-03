@@ -6,16 +6,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, soma=0, contador=1
 		escreva("SISTEMA 6\n")
+		
+		inteiro numero, soma=0, contador=1
+		
 		escreva("\nDigite um número: ")
-			leia(numero)
+		leia(numero)
+		
 		faca
-		{
-				soma=soma+contador	
-				contador++
+			{
+			soma=soma+contador	
+			contador++
 			}
-		enquanto (contador<=numero)
+			enquanto (contador<=numero)
 			escreva("\nO número somado até ele mesmo resulta em: ",soma)
 			escreva("\n")
 	}
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 499; 
+ * @POSICAO-CURSOR = 352; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

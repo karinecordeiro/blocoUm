@@ -4,27 +4,30 @@ Caso contrário, imprima os valores lidos e seus respectivos quadrados.*/
 
 programa
 {
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		escreva("SISTEMA TRÊS\n")
+		escreva("SISTEMA 3.2\n")
 		inteiro n1 , n2, n3, n4, q1, q2, q3, q4
 		
 		escreva("\nDigite o primeiro valor: ")
 		leia(n1)
-		q1=n1*n1
 		
 		escreva("Digite o segundo valor: ")
 		leia(n2)
-		q2=n2*n2
-		
+
 		escreva("Digite o terceiro valor: ")
 		leia(n3)
-		q3=n3*n3
 		
 		escreva("Digite o quarto valor: ")
 		leia(n4)
-		q4=n4*n4
+		
+
+		q1= mat.potencia (n1, 2)
+		q2= mat.potencia (n2, 2)
+		q3= mat.potencia (n3, 2)
+		q4= mat.potencia (n4, 2)
 		 
 		 se (q3>=1000)
 				{
@@ -39,15 +42,15 @@ programa
 			escreva("\nO quadrado de ", n3, " é igual a ", q3)
 			escreva("\nO quadrado de ", n4, " é igual a ", q4, "\n")
 			}
+
 	}
-		
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 349; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
