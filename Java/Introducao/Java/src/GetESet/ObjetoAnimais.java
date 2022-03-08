@@ -28,7 +28,7 @@ public class ObjetoAnimais {
 			System.out.print("\nO nome do cavalo é " +cv1.getNome()+ ", sua idade é " +cv1.getIdade()+ 
 					" anos. Ele emite som: ["+cv1.isSom()+"] e ele corre [" +cv1.isCorrer()+ "].\n");
 			System.out.print("\nO nome da preguiça é " +p1.getNome()+ ", sua idade é " +p1.getIdade()+ 
-					" anos. Ela emite som: ["+p1.isSom()+"] e ela sobre árvores [" +p1.isSubir()+ "].");
+					" anos. Ela emite som: ["+p1.isSom()+"] e ela sobe em árvores [" +p1.isSubir()+ "].");
 	}
 
 }
