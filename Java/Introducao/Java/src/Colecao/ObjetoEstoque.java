@@ -28,7 +28,6 @@ public class ObjetoEstoque {
 			
 			System.out.print("Adicionado "+estoque+"\n");
 			
-			
 			estoque.set(3, e5);
 			System.out.println("Atualizado "+estoque);
 			
