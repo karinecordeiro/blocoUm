@@ -32,12 +32,7 @@ public class ObjetoEstoque {
 			System.out.println("Atualizado "+estoque);
 			
 			estoque.remove(e5);
-			System.out.println("Removido "+estoque);
-			
-			
-			
-		
-			
+			System.out.println("Removido "+estoque);	
 			
 	}	
 
